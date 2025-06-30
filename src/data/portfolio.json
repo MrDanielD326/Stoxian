@@ -1,0 +1,234 @@
+[
+  {
+    "name": "HDFC Bank",
+    "ticker": "HDFCBANK.NS",
+    "exchange": "NSE",
+    "purchasePrice": 1600.0,
+    "quantity": 50,
+    "sector": "Finance Sector"
+  },
+  {
+    "name": "Bajaj Finance",
+    "ticker": "BAJFINANCE.NS",
+    "exchange": "NSE",
+    "purchasePrice": 7000.0,
+    "quantity": 15,
+    "sector": "Finance Sector"
+  },
+  {
+    "name": "ICICI Bank",
+    "ticker": "ICICIBANK.NS",
+    "exchange": "NSE",
+    "purchasePrice": 950.0,
+    "quantity": 100,
+    "sector": "Finance Sector"
+  },
+  {
+    "name": "Bajaj Housing",
+    "ticker": "BAJAJFINSV.NS",
+    "exchange": "NSE",
+    "purchasePrice": 1500.0,
+    "quantity": 60,
+    "sector": "Finance Sector"
+  },
+  {
+    "name": "Savani Financials",
+    "ticker": "SAVANIFIN.BO",
+    "exchange": "BSE",
+    "purchasePrice": 15.0,
+    "quantity": 5000,
+    "sector": "Finance Sector"
+  },
+  {
+    "name": "Affle India",
+    "ticker": "AFFLE.NS",
+    "exchange": "NSE",
+    "purchasePrice": 1000.0,
+    "quantity": 80,
+    "sector": "Tech Sector"
+  },
+  {
+    "name": "LTI Mindtree",
+    "ticker": "LTIM.NS",
+    "exchange": "NSE",
+    "purchasePrice": 5000.0,
+    "quantity": 20,
+    "sector": "Tech Sector"
+  },
+  {
+    "name": "KPIT Tech",
+    "ticker": "KPITTECH.NS",
+    "exchange": "NSE",
+    "purchasePrice": 1100.0,
+    "quantity": 90,
+    "sector": "Tech Sector"
+  },
+  {
+    "name": "Tata Tech",
+    "ticker": "TATATECH.NS",
+    "exchange": "NSE",
+    "purchasePrice": 1300.0,
+    "quantity": 75,
+    "sector": "Tech Sector"
+  },
+  {
+    "name": "BLS E-Services",
+    "ticker": "BLSE.NS",
+    "exchange": "NSE",
+    "purchasePrice": 300.0,
+    "quantity": 300,
+    "sector": "Tech Sector"
+  },
+  {
+    "name": "Tanla",
+    "ticker": "TANLA.NS",
+    "exchange": "NSE",
+    "purchasePrice": 800.0,
+    "quantity": 120,
+    "sector": "Tech Sector"
+  },
+  {
+    "name": "Infy",
+    "ticker": "INFY.NS",
+    "exchange": "NSE",
+    "purchasePrice": 1450.25,
+    "quantity": 70,
+    "sector": "Tech Sector"
+  },
+  {
+    "name": "Happiest Mind",
+    "ticker": "HAPPSTMNDS.NS",
+    "exchange": "NSE",
+    "purchasePrice": 900.0,
+    "quantity": 110,
+    "sector": "Tech Sector"
+  },
+  {
+    "name": "Easemytrip",
+    "ticker": "EASEMYTRIP.NS",
+    "exchange": "NSE",
+    "purchasePrice": 45.0,
+    "quantity": 2000,
+    "sector": "Tech Sector"
+  },
+  {
+    "name": "Dmart",
+    "ticker": "DMART.NS",
+    "exchange": "NSE",
+    "purchasePrice": 3800.0,
+    "quantity": 25,
+    "sector": "Consumer Sector"
+  },
+  {
+    "name": "Tata Consumer",
+    "ticker": "TATACONSUM.NS",
+    "exchange": "NSE",
+    "purchasePrice": 850.0,
+    "quantity": 110,
+    "sector": "Consumer Sector"
+  },
+  {
+    "name": "Pidilite",
+    "ticker": "PIDILITIND.NS",
+    "exchange": "NSE",
+    "purchasePrice": 2500.0,
+    "quantity": 40,
+    "sector": "Consumer Sector"
+  },
+  {
+    "name": "Tata Power",
+    "ticker": "TATAPOWER.NS",
+    "exchange": "NSE",
+    "purchasePrice": 230.0,
+    "quantity": 400,
+    "sector": "Power Sector"
+  },
+  {
+    "name": "KPI Green",
+    "ticker": "KPIGREEN.NS",
+    "exchange": "NSE",
+    "purchasePrice": 800.0,
+    "quantity": 120,
+    "sector": "Power Sector"
+  },
+  {
+    "name": "Suzlon",
+    "ticker": "SUZLON.NS",
+    "exchange": "NSE",
+    "purchasePrice": 25.0,
+    "quantity": 4000,
+    "sector": "Power Sector"
+  },
+  {
+    "name": "Gensol",
+    "ticker": "GENSOL.NS",
+    "exchange": "NSE",
+    "purchasePrice": 1500.0,
+    "quantity": 60,
+    "sector": "Power Sector"
+  },
+  {
+    "name": "Hariom Pipes",
+    "ticker": "HARIOMPIPE.NS",
+    "exchange": "NSE",
+    "purchasePrice": 500.0,
+    "quantity": 200,
+    "sector": "Pipe Sector"
+  },
+  {
+    "name": "Astral",
+    "ticker": "ASTRAL.NS",
+    "exchange": "NSE",
+    "purchasePrice": 1400.0,
+    "quantity": 70,
+    "sector": "Pipe Sector"
+  },
+  {
+    "name": "Polycab",
+    "ticker": "POLYCAB.NS",
+    "exchange": "NSE",
+    "purchasePrice": 3500.0,
+    "quantity": 30,
+    "sector": "Pipe Sector"
+  },
+  {
+    "name": "Clean Science",
+    "ticker": "CLEAN.NS",
+    "exchange": "NSE",
+    "purchasePrice": 1400.0,
+    "quantity": 70,
+    "sector": "Other Sector"
+  },
+  {
+    "name": "Deepak Nitrite",
+    "ticker": "DEEPAKNTR.NS",
+    "exchange": "NSE",
+    "purchasePrice": 2000.0,
+    "quantity": 50,
+    "sector": "Other Sector"
+  },
+  {
+    "name": "Fine Organic",
+    "ticker": "FINEORG.NS",
+    "exchange": "NSE",
+    "purchasePrice": 4500.0,
+    "quantity": 22,
+    "sector": "Other Sector"
+  },
+  {
+    "name": "Gravita",
+    "ticker": "GRAVITA.NS",
+    "exchange": "NSE",
+    "purchasePrice": 600.0,
+    "quantity": 160,
+    "sector": "Other Sector"
+  },
+  {
+    "name": "SBI Life",
+    "ticker": "SBILIFE.NS",
+    "exchange": "NSE",
+    "purchasePrice": 1300.0,
+    "quantity": 75,
+    "sector": "Other Sector"
+  }
+]
