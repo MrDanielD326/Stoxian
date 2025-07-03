@@ -47,7 +47,7 @@ interface TooltipPayloadItem {
 }
 
 // Accept 'any' for recharts compatibility, but type inside
-const renderActiveShape = (props: any) => {
+const renderActiveShape = (props: unknown) => {
   const { cx, cy, midAngle, innerRadius, outerRadius, startAngle, endAngle, fill, payload, percent, value } = props as ActiveShapeProps;
   const RADIAN = Math.PI / 180;
   const sin = Math.sin(-RADIAN * midAngle);
@@ -77,7 +77,7 @@ const renderActiveShape = (props: any) => {
   );
 };
 
-const RoundedBar = (props: any): React.ReactElement => {
+const RoundedBar = (props: unknown): React.ReactElement => {
   const { fill, x, y, width, height } = props as RoundedBarProps;
   const radius = 6;
   return (
@@ -85,15 +85,19 @@ const RoundedBar = (props: any): React.ReactElement => {
   );
 };
 
-const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: any[]; label?: string }) => {
-  // Type payload inside for safety
-  const typedPayload = payload as TooltipPayloadItem[];
-  if (active && typedPayload && typedPayload.length) {
+interface CustomTooltipProps {
+  active?: boolean;
+  payload?: TooltipPayloadItem[];
+  label?: string;
+}
+
+const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
+  if (active && payload && payload.length) {
     return (
       <div className="p-2 glass-effect text-sm">
         <p className="label font-bold text-white">{`${label}`}</p>
-        {typedPayload.map((pld, index) => (
-          <p key={index} style={{ color: pld.fill }}> {`${pld.name}: ${formatCurrency(pld.value)}`} </p>
+        {payload.map((pld, index) => (
+          <p key={index} style={{ color: pld.fill }}>{`${pld.name}: ${formatCurrency(pld.value)}`}</p>
         ))}
       </div>
     );
@@ -174,4 +178,4 @@ export default function PortfolioCharts({ data }: PortfolioChartsProps) {
       </div>
     </div>
   );
-};
+}
