@@ -4,7 +4,7 @@ A responsive stock portfolio dashboard providing real-time market insights.
 
 ---
 
-### Preview
+### Preview - [Link](https://stoxian.netlify.app/)
 
 ###### This below image is a Landing Page
 ![Landing](public/assets/Landing.png)
